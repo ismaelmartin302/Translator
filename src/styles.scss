@@ -1,3 +1,20 @@
+$primary: #4A4233;
+@import 'bootstrap/scss/bootstrap';
+
 html, body {
     height: 100dvh;
 }
+body {
+    background-color: black;
+}
+.background-image {
+    filter: brightness(3) saturate(0) sepia(100) blur(10px);
+    
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+  }
